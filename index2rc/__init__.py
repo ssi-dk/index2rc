@@ -8,7 +8,7 @@ def rev_comp(seq):
         "C": "G",
         "G": "C"
     }
-    return "".join([c[x] for x in seq])
+    return "".join([c[x] for x in seq[::-1])
 
 
 def convert(source, dest):
